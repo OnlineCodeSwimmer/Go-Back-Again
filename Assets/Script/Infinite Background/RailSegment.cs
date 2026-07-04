@@ -59,7 +59,6 @@ public class RailSegment : MonoBehaviour
 
         if (railCollider != null)
         {
-            railCollider.isTrigger = true;
             railCollider.offset = new Vector2(length * 0.5f, 0f);
             railCollider.size = new Vector2(length, railThickness);
         }
